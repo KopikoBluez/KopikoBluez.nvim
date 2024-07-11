@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('lunar.theme')
+local theme = require('kopikobluez.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'lunar'
+  vim.g.colors_name = 'kopikobluez'
 
   theme.set_highlights()
 end
